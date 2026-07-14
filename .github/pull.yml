@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: main
+    upstream: pbakaus:main
+    mergeMethod: hardreset
+    mergeUnstable: true
